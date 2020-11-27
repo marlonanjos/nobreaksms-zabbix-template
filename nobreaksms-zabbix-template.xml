@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>5.0</version>
-    <date>2020-11-26T13:53:52Z</date>
+    <date>2020-11-27T12:40:25Z</date>
     <groups>
         <group>
             <name>Templates</name>
@@ -165,6 +165,7 @@ A página atualizaBlock.action possui comentários com os parâmetros atuais do 
                             <name>Nobreaks</name>
                         </application>
                     </applications>
+                    <timeout>10s</timeout>
                     <url>http://{HOST.IP}:8080/sms/s2/atualizaBlock.action</url>
                     <retrieve_mode>BOTH</retrieve_mode>
                     <triggers>
